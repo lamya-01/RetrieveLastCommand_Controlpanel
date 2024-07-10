@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robot Movement Controller</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h5>Select Movement</h5>
+        <form method="POST" action="connection.php" id="commandForm">
+            <button type="button" name="command" value="forward" onclick="sendCommand(this)">Forward</button>
+            <div class="middle-row">
+                <button type="button" name="command" value="left" onclick="sendCommand(this)">Left</button>
+                <button type="button" name="command" value="stop" onclick="sendCommand(this)">Stop</button>
+                <button type="button" name="command" value="right" onclick="sendCommand(this)">Right</button>
+            </div>
+            <button type="button" name="command" value="backward" onclick="sendCommand(this)">Backward</button>
+        </form>
+        <p id="message"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
