@@ -75,6 +75,7 @@ Handles the database connection and logic for inserting movement commands into t
 
 robot-movement-controller/
 │
+├── REDME.md
 
 ├── index.html
 
@@ -83,6 +84,7 @@ robot-movement-controller/
 ├── script.js
 
 ├── store_command.php
+
 
 ## Features
 
