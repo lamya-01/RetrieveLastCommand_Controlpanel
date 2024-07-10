@@ -75,9 +75,13 @@ Handles the database connection and logic for inserting movement commands into t
 
 robot-movement-controller/
 │
+
 ├── index.html
+
 ├── styles.css
+
 ├── script.js
+
 ├── store_command.php
 
 ## Features
